@@ -25,7 +25,7 @@ SECRET_KEY = 'kpls30(w##tk&lhf5zimmulcszpl0)javxe7$qeqpg=spndto^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
