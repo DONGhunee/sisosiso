@@ -1,0 +1,114 @@
+
+
+html,body{
+    height: 100%;
+    font-family: M;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(
+        rgba(223, 236, 240, 0.3), 
+        rgba(223, 236, 240, 0.3) 
+      ), url('/static/images/sky3.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: auto,auto;
+}
+*:focus { outline:none; }
+
+.btn:hover {
+    background: white;
+    color:rgb(110, 191, 233);
+    border-color: white;
+}
+
+#btn1{
+    color:white;
+    background-color:rgb(110, 191, 233);
+    border-color:rgb(110, 191, 233);
+    width:80px;
+    margin-top:0px;
+}
+
+#btn1:hover{
+    color:rgb(110, 191, 233);;
+    background-color:white;
+    border-color:rgb(110, 191, 233);
+    width:80px;
+    margin-top:0px;
+}
+
+.btn:active {
+    background: white;
+    color:black;
+    border-color: white;
+
+}  
+.btn {
+    border-color: white;
+    width: 120px;
+    color:white;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: underline !important;
+    cursor: pointer !important;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.ma{
+    font-size:40px;
+}
+
+.pp{
+    visibility: hidden;
+}
+
+.modal-footer{
+    justify-content: space-between !important;
+}
+
+.modal-footer span{
+    font-size:15px;
+}
+
+/* 모바일 */
+
+@media ( min-width: 768px ) {
+    .ma{
+        font-size:45px;
+    }
+
+    .pp{
+        display: none;
+        visibility: hidden;
+    }
+
+    
+}
+/* 태블릿 */
+@media ( min-width: 1024px ) {
+    .ma{
+        font-size:50px;
+    }
+
+    .pp{
+        display: none;
+        visibility: visible;
+    }
+
+   
+}
+/* PC */
+
+
